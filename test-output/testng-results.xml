@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[
+click on signIn button]]>
+    </line>
+    <line>
+      <![CDATA[
+create random email address]]>
+    </line>
+    <line>
+      <![CDATA[
+enter email address]]>
+    </line>
+    <line>
+      <![CDATA[
+click on create an account]]>
+    </line>
+    <line>
+      <![CDATA[
+click on title]]>
+    </line>
+    <line>
+      <![CDATA[
+input first name]]>
+    </line>
+    <line>
+      <![CDATA[
+input last name]]>
+    </line>
+    <line>
+      <![CDATA[
+input password]]>
+    </line>
+    <line>
+      <![CDATA[
+select days]]>
+    </line>
+    <line>
+      <![CDATA[
+select month]]>
+    </line>
+    <line>
+      <![CDATA[
+select year]]>
+    </line>
+    <line>
+      <![CDATA[
+input company name]]>
+    </line>
+    <line>
+      <![CDATA[
+input address]]>
+    </line>
+    <line>
+      <![CDATA[
+input city]]>
+    </line>
+    <line>
+      <![CDATA[
+select state]]>
+    </line>
+    <line>
+      <![CDATA[
+input postal code]]>
+    </line>
+    <line>
+      <![CDATA[
+input additional information]]>
+    </line>
+    <line>
+      <![CDATA[
+input home phone]]>
+    </line>
+    <line>
+      <![CDATA[
+input mobile phone]]>
+    </line>
+    <line>
+      <![CDATA[
+input address alias]]>
+    </line>
+    <line>
+      <![CDATA[
+click on register button]]>
+    </line>
+    <line>
+      <![CDATA[
+wait for heading]]>
+    </line>
+    <line>
+      <![CDATA[
+assert that page heading is displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+assert user name]]>
+    </line>
+    <line>
+      <![CDATA[
+assert logOut button is displayed on page]]>
+    </line>
+    <line>
+      <![CDATA[
+assert current URL text]]>
+    </line>
+    <line>
+      <![CDATA[
+click on signIn button]]>
+    </line>
+    <line>
+      <![CDATA[
+input user email]]>
+    </line>
+    <line>
+      <![CDATA[
+input password]]>
+    </line>
+    <line>
+      <![CDATA[
+click to login to the application]]>
+    </line>
+    <line>
+      <![CDATA[
+assert page heading]]>
+    </line>
+    <line>
+      <![CDATA[
+assert user name]]>
+    </line>
+    <line>
+      <![CDATA[
+assert account information]]>
+    </line>
+    <line>
+      <![CDATA[
+assert logOut button is displayed on page]]>
+    </line>
+    <line>
+      <![CDATA[
+assert current URL text]]>
+    </line>
+    <line>
+      <![CDATA[
+click on signIn button]]>
+    </line>
+    <line>
+      <![CDATA[
+input user email]]>
+    </line>
+    <line>
+      <![CDATA[
+input password]]>
+    </line>
+    <line>
+      <![CDATA[
+click to login to the application]]>
+    </line>
+    <line>
+      <![CDATA[
+click on women menu item]]>
+    </line>
+    <line>
+      <![CDATA[
+click on faded short sleeves]]>
+    </line>
+    <line>
+      <![CDATA[
+click on faded short sleeves again]]>
+    </line>
+    <line>
+      <![CDATA[
+click on Add Cart button]]>
+    </line>
+    <line>
+      <![CDATA[
+click on proceed checkout]]>
+    </line>
+    <line>
+      <![CDATA[
+click on final checkout]]>
+    </line>
+    <line>
+      <![CDATA[
+click on process address to checkout]]>
+    </line>
+    <line>
+      <![CDATA[
+click on terms and services checkbox]]>
+    </line>
+    <line>
+      <![CDATA[
+click on checkout button in shipping section]]>
+    </line>
+    <line>
+      <![CDATA[
+click on payment by bank wire]]>
+    </line>
+    <line>
+      <![CDATA[
+click on order confirmation button]]>
+    </line>
+    <line>
+      <![CDATA[
+assert page heading]]>
+    </line>
+    <line>
+      <![CDATA[
+assert that shipping section is displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+assert that payment section is displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+assert order confirmation text]]>
+    </line>
+    <line>
+      <![CDATA[
+assert current Url text]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="106866" started-at="2018-06-10T18:40:17Z" finished-at="2018-06-10T18:42:04Z">
+    <groups>
+    </groups>
+    <test name="HelloFresh TestSuite" duration-ms="106866" started-at="2018-06-10T18:40:17Z" finished-at="2018-06-10T18:42:04Z">
+      <class name="com.hellofresh.challenge.LogIn">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.hellofresh.challenge.LogIn@17579e0f]" name="setUp" is-config="true" duration-ms="14193" started-at="2018-06-11T00:10:54Z" finished-at="2018-06-11T00:11:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hellofresh.challenge.LogIn.logInTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:com.hellofresh.challenge.LogIn@17579e0f]" name="logInTest" duration-ms="6981" started-at="2018-06-11T00:11:08Z" finished-at="2018-06-11T00:11:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+click on signIn button]]>
+            </line>
+            <line>
+              <![CDATA[
+input user email]]>
+            </line>
+            <line>
+              <![CDATA[
+input password]]>
+            </line>
+            <line>
+              <![CDATA[
+click to login to the application]]>
+            </line>
+            <line>
+              <![CDATA[
+assert page heading]]>
+            </line>
+            <line>
+              <![CDATA[
+assert user name]]>
+            </line>
+            <line>
+              <![CDATA[
+assert account information]]>
+            </line>
+            <line>
+              <![CDATA[
+assert logOut button is displayed on page]]>
+            </line>
+            <line>
+              <![CDATA[
+assert current URL text]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="captureScreenShot(org.testng.ITestResult)[pri:0, instance:com.hellofresh.challenge.LogIn@17579e0f]" name="captureScreenShot" is-config="true" duration-ms="1631" started-at="2018-06-11T00:11:15Z" finished-at="2018-06-11T00:11:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInTest status=SUCCESS method=LogIn.logInTest()[pri:0, instance:com.hellofresh.challenge.LogIn@17579e0f] output=
+click on signIn button]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.hellofresh.challenge.LogIn@17579e0f]" name="afterMainMethod" is-config="true" duration-ms="1" started-at="2018-06-11T00:11:16Z" finished-at="2018-06-11T00:11:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+      </class> <!-- com.hellofresh.challenge.LogIn -->
+      <class name="com.hellofresh.challenge.SignIn">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.hellofresh.challenge.SignIn@1c3a4799]" name="before" is-config="true" duration-ms="384" started-at="2018-06-11T00:10:16Z" finished-at="2018-06-11T00:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.hellofresh.challenge.SignIn@1c3a4799]" name="setUp" is-config="true" duration-ms="17827" started-at="2018-06-11T00:10:17Z" finished-at="2018-06-11T00:10:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hellofresh.challenge.SignIn.signInTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInTest()[pri:0, instance:com.hellofresh.challenge.SignIn@1c3a4799]" name="signInTest" duration-ms="17353" started-at="2018-06-11T00:10:35Z" finished-at="2018-06-11T00:10:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+click on signIn button]]>
+            </line>
+            <line>
+              <![CDATA[
+create random email address]]>
+            </line>
+            <line>
+              <![CDATA[
+enter email address]]>
+            </line>
+            <line>
+              <![CDATA[
+click on create an account]]>
+            </line>
+            <line>
+              <![CDATA[
+click on title]]>
+            </line>
+            <line>
+              <![CDATA[
+input first name]]>
+            </line>
+            <line>
+              <![CDATA[
+input last name]]>
+            </line>
+            <line>
+              <![CDATA[
+input password]]>
+            </line>
+            <line>
+              <![CDATA[
+select days]]>
+            </line>
+            <line>
+              <![CDATA[
+select month]]>
+            </line>
+            <line>
+              <![CDATA[
+select year]]>
+            </line>
+            <line>
+              <![CDATA[
+input company name]]>
+            </line>
+            <line>
+              <![CDATA[
+input address]]>
+            </line>
+            <line>
+              <![CDATA[
+input city]]>
+            </line>
+            <line>
+              <![CDATA[
+select state]]>
+            </line>
+            <line>
+              <![CDATA[
+input postal code]]>
+            </line>
+            <line>
+              <![CDATA[
+input additional information]]>
+            </line>
+            <line>
+              <![CDATA[
+input home phone]]>
+            </line>
+            <line>
+              <![CDATA[
+input mobile phone]]>
+            </line>
+            <line>
+              <![CDATA[
+input address alias]]>
+            </line>
+            <line>
+              <![CDATA[
+click on register button]]>
+            </line>
+            <line>
+              <![CDATA[
+wait for heading]]>
+            </line>
+            <line>
+              <![CDATA[
+assert that page heading is displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+assert user name]]>
+            </line>
+            <line>
+              <![CDATA[
+assert logOut button is displayed on page]]>
+            </line>
+            <line>
+              <![CDATA[
+assert current URL text]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="captureScreenShot(org.testng.ITestResult)[pri:0, instance:com.hellofresh.challenge.SignIn@1c3a4799]" name="captureScreenShot" is-config="true" duration-ms="1442" started-at="2018-06-11T00:10:52Z" finished-at="2018-06-11T00:10:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInTest status=SUCCESS method=SignIn.signInTest()[pri:0, instance:com.hellofresh.challenge.SignIn@1c3a4799] output=
+click on signIn button]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.hellofresh.challenge.SignIn@1c3a4799]" name="afterMainMethod" is-config="true" duration-ms="1" started-at="2018-06-11T00:10:54Z" finished-at="2018-06-11T00:10:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.hellofresh.challenge.SignIn@1c3a4799]" name="tearDownSuite" is-config="true" duration-ms="1152" started-at="2018-06-11T00:12:04Z" finished-at="2018-06-11T00:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.hellofresh.challenge.SignIn -->
+      <class name="com.hellofresh.challenge.Checkout">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.hellofresh.challenge.Checkout@4d41cee]" name="setUp" is-config="true" duration-ms="15363" started-at="2018-06-11T00:11:16Z" finished-at="2018-06-11T00:11:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hellofresh.challenge.Checkout.checkoutTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkoutTest()[pri:0, instance:com.hellofresh.challenge.Checkout@4d41cee]" name="checkoutTest" duration-ms="30357" started-at="2018-06-11T00:11:32Z" finished-at="2018-06-11T00:12:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+click on signIn button]]>
+            </line>
+            <line>
+              <![CDATA[
+input user email]]>
+            </line>
+            <line>
+              <![CDATA[
+input password]]>
+            </line>
+            <line>
+              <![CDATA[
+click to login to the application]]>
+            </line>
+            <line>
+              <![CDATA[
+click on women menu item]]>
+            </line>
+            <line>
+              <![CDATA[
+click on faded short sleeves]]>
+            </line>
+            <line>
+              <![CDATA[
+click on faded short sleeves again]]>
+            </line>
+            <line>
+              <![CDATA[
+click on Add Cart button]]>
+            </line>
+            <line>
+              <![CDATA[
+click on proceed checkout]]>
+            </line>
+            <line>
+              <![CDATA[
+click on final checkout]]>
+            </line>
+            <line>
+              <![CDATA[
+click on process address to checkout]]>
+            </line>
+            <line>
+              <![CDATA[
+click on terms and services checkbox]]>
+            </line>
+            <line>
+              <![CDATA[
+click on checkout button in shipping section]]>
+            </line>
+            <line>
+              <![CDATA[
+click on payment by bank wire]]>
+            </line>
+            <line>
+              <![CDATA[
+click on order confirmation button]]>
+            </line>
+            <line>
+              <![CDATA[
+assert page heading]]>
+            </line>
+            <line>
+              <![CDATA[
+assert that shipping section is displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+assert that payment section is displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+assert order confirmation text]]>
+            </line>
+            <line>
+              <![CDATA[
+assert current Url text]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method status="PASS" signature="captureScreenShot(org.testng.ITestResult)[pri:0, instance:com.hellofresh.challenge.Checkout@4d41cee]" name="captureScreenShot" is-config="true" duration-ms="1657" started-at="2018-06-11T00:12:02Z" finished-at="2018-06-11T00:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutTest status=SUCCESS method=Checkout.checkoutTest()[pri:0, instance:com.hellofresh.challenge.Checkout@4d41cee] output=
+click on signIn button]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.hellofresh.challenge.Checkout@4d41cee]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2018-06-11T00:12:04Z" finished-at="2018-06-11T00:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+      </class> <!-- com.hellofresh.challenge.Checkout -->
+    </test> <!-- HelloFresh TestSuite -->
+  </suite> <!-- Suite -->
+</testng-results>

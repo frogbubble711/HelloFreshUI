@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="true" thread-count="3">
+
+	<listeners>
+		<listener class-name="com.hellofresh.report.SummaryReport" />
+		<listener class-name="com.hellofresh.report.ExtentReporterNG" />
+	</listeners>
+
+	<test name="HelloFresh TestSuite" preserve-order="true" verbose="1">
+		<classes>
+			<class name="com.hellofresh.challenge.SignIn" />
+			<class name="com.hellofresh.challenge.LogIn" />
+			<class name="com.hellofresh.challenge.Checkout" />
+		</classes>
+	</test>
+
+</suite>

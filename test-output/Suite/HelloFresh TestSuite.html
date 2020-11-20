@@ -1,0 +1,222 @@
+<html>
+<head>
+<title>TestNG:  HelloFresh TestSuite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>HelloFresh TestSuite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 11 00:10:17 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>106 seconds (106866 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hellofresh.challenge.Checkout.checkoutTest()'><b>checkoutTest</b><br>Test class: com.hellofresh.challenge.Checkout<br/>
+<a href="#Output-1804126860" onClick='toggleBox("Output-1804126860", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1804126860" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1804126860">
+
+click on signIn button<br/>
+
+input user email<br/>
+
+input password<br/>
+
+click to login to the application<br/>
+
+click on women menu item<br/>
+
+click on faded short sleeves<br/>
+
+click on faded short sleeves again<br/>
+
+click on Add Cart button<br/>
+
+click on proceed checkout<br/>
+
+click on final checkout<br/>
+
+click on process address to checkout<br/>
+
+click on terms and services checkbox<br/>
+
+click on checkout button in shipping section<br/>
+
+click on payment by bank wire<br/>
+
+click on order confirmation button<br/>
+
+assert page heading<br/>
+
+assert that shipping section is displayed<br/>
+
+assert that payment section is displayed<br/>
+
+assert order confirmation text<br/>
+
+assert current Url text<br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>com.hellofresh.challenge.Checkout@4d41cee</td></tr>
+<tr>
+<td title='com.hellofresh.challenge.LogIn.logInTest()'><b>logInTest</b><br>Test class: com.hellofresh.challenge.LogIn<br/>
+<a href="#Output-966966167" onClick='toggleBox("Output-966966167", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-966966167" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-966966167">
+
+click on signIn button<br/>
+
+input user email<br/>
+
+input password<br/>
+
+click to login to the application<br/>
+
+assert page heading<br/>
+
+assert user name<br/>
+
+assert account information<br/>
+
+assert logOut button is displayed on page<br/>
+
+assert current URL text<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.hellofresh.challenge.LogIn@17579e0f</td></tr>
+<tr>
+<td title='com.hellofresh.challenge.SignIn.signInTest()'><b>signInTest</b><br>Test class: com.hellofresh.challenge.SignIn<br/>
+<a href="#Output-139947936" onClick='toggleBox("Output-139947936", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-139947936" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-139947936">
+
+click on signIn button<br/>
+
+create random email address<br/>
+
+enter email address<br/>
+
+click on create an account<br/>
+
+click on title<br/>
+
+input first name<br/>
+
+input last name<br/>
+
+input password<br/>
+
+select days<br/>
+
+select month<br/>
+
+select year<br/>
+
+input company name<br/>
+
+input address<br/>
+
+input city<br/>
+
+select state<br/>
+
+input postal code<br/>
+
+input additional information<br/>
+
+input home phone<br/>
+
+input mobile phone<br/>
+
+input address alias<br/>
+
+click on register button<br/>
+
+wait for heading<br/>
+
+assert that page heading is displayed<br/>
+
+assert user name<br/>
+
+assert logOut button is displayed on page<br/>
+
+assert current URL text<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.hellofresh.challenge.SignIn@1c3a4799</td></tr>
+</table><p>
+</body>
+</html>
